@@ -1,0 +1,44 @@
+[centos@nifisetupone ~]$ ls -ltr
+total 1308956
+-rw-rw-r--. 1 centos centos  189756259 Mar 19 12:27 jdk-8u161-linux-x64.tar.gz
+-rw-rw-r--. 1 centos centos 1150610857 Mar 20 18:11 nifi-1.5.0-bin.tar.gz
+drwxrwxr-x. 6 centos centos         95 Mar 20 18:11 nifi-1.5.0
+drwxrwxr-x. 6 centos centos        181 Mar 22 06:32 downloads
+[centos@nifisetupone ~]$ cat .bashrc 
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+export JAVA_HOME=/home/centos/downloads/java
+export JRE_HOME=/home/centos/downloads/java/jre
+export PATH=$PATH:/home/centos/downloads/java/bin:/home/centos/downloads/java/jre/bin
+
+alias stopnifi='/home/centos/downloads/nifi/bin/nifi.sh stop'
+alias startnifi='/home/centos/downloads/nifi/bin/nifi.sh start'
+alias tailnifi='tailf /home/centos/downloads/nifi/logs/nifi-app.log'
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ cat /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+172.16.17.5 nifisetuptwo
+172.16.17.6  nifisetupthree
+172.16.17.4 nifisetupone
+[centos@nifisetupone ~]$ 
+[centos@nifisetupone ~]$ jps
+107298 QuorumPeerMain
+36173 RunNiFi
+36190 NiFi
+39022 Jps

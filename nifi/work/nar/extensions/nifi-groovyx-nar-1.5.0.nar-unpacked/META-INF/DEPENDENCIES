@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-groovyx-nar
+
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-groovyx-processors (http://nifi.apache.org/nifi-nar-bundles/nifi-groovyx-bundle/nifi-groovyx-processors) org.apache.nifi:nifi-groovyx-processors:jar:1.5.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-standard-services-api-nar (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-standard-services-api-nar) org.apache.nifi:nifi-standard-services-api-nar:nar:1.5.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://groovy-lang.org)
+  - Apache Groovy (http://groovy-lang.org) org.codehaus.groovy:groovy-all:jar:2.4.11
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Ivy (http://ant.apache.org/ivy/) org.apache.ivy:ivy:jar:2.4.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

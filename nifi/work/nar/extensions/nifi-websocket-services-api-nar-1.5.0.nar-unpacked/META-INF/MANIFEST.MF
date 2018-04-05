@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Build-Timestamp: 2018-01-09T02:11:54Z
+Archiver-Version: Plexus Archiver
+Nar-Dependency-Group: org.apache.nifi
+Built-By: jwitt
+Nar-Id: nifi-websocket-services-api-nar
+Clone-During-Instance-Class-Loading: false
+Nar-Dependency-Version: 1.5.0
+Nar-Version: 1.5.0
+Build-Tag: nifi-1.5.0-RC1
+Nar-Group: org.apache.nifi
+Nar-Dependency-Id: nifi-standard-services-api-nar
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_141
+
